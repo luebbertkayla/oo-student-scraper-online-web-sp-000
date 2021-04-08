@@ -10,7 +10,7 @@ class Scraper
     
     students = {}
     
-    doc.css("student-card")
+    doc.css("div.student-card")
   end
 
   def self.scrape_profile_page(profile_url)
