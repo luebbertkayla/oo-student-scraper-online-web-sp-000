@@ -32,8 +32,8 @@ class Scraper
     
     social_links.detect do |e|
       student_page[:twitter] = e if e.include?("twitter")
-      student_page[:linkedin] =
-      student_page[:github] = 
+      student_page[:linkedin] = e if e.include?("linkedin")
+      student_page[:github] = e if e.include?("github")
   end
 
 end
