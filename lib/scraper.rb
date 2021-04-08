@@ -38,7 +38,7 @@ class Scraper
     end 
     
     student_page[:blog] = social_links[3] if social_links[3] != nil
-    student_page[:profile_quote] = 
+    student_page[:profile_quote] = page.css()
     student_page[:bio] = 
     
   end
