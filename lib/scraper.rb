@@ -10,7 +10,8 @@ class Scraper
     
     students = {}
     
-    doc.css("div.student-card")
+    doc.css("div.student-card").each do |student|
+      
   end
 
   def self.scrape_profile_page(profile_url)
