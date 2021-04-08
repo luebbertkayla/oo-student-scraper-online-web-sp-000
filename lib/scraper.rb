@@ -30,7 +30,8 @@ class Scraper
     
     social_links = page.css(".social-icon-container").css("a").collect {|e| e.attributes["href"].value}
     
-    social_links.detect 
+    social_links.detect do |e|
+      
   end
 
 end
