@@ -29,6 +29,8 @@ class Scraper
     student_page = {}
     
     page.css(".social-icon-container").css("a").collect {|e| e.attributes["href"].value}
+    
+    social_links
   end
 
 end
