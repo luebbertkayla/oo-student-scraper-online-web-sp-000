@@ -28,7 +28,7 @@ class Scraper
     
     student_page = {}
     
-    page.css("social")
+    page.css("social-icon-container")
   end
 
 end
