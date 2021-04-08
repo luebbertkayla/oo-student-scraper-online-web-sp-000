@@ -32,6 +32,7 @@ class Scraper
     
     social_links.detect do |e|
       student_page[:twitter] = 
+      student_page[:twitter]
       
   end
 
