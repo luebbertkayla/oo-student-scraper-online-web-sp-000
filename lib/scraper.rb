@@ -13,7 +13,7 @@ class Scraper
     doc.css("div.student-card").each do |student|
       students << {
         :name => student.css("h4.student-name")
-        :location => student.css()
+        :location => student.css("p.student-location")
         :profile_url
       }
   end
